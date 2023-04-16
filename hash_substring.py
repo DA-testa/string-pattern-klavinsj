@@ -14,7 +14,7 @@ def read_input():
     # this is the sample return, notice the rstrip function
     izvele = input()
     if "F" in izvele:
-        fails = input()
+        fails = "06" #input()
         fails = "./tests/" + fails
         ievade = open(fails,"r").readlines()
         return (ievade[0].rstrip(), ievade[1].rstrip())
